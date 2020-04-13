@@ -1,2 +1,5 @@
 default
+ropes?
+moreblocks?
+farming?
 plantlife?
