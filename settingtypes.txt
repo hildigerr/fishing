@@ -1,0 +1,4 @@
+#    Percent chance of catching fish
+fishing.fish_chance (Percent chance of catching fish) int 15 1 100
+#    Percent chance of finding worms
+fishing.worm_chance (Percent chance of finding worms) int 30 1 100

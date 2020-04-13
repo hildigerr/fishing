@@ -1,7 +1,7 @@
 --todo: item wear, automatic re-baiting option, different types of fish/sushi, add sound
 
-local FISH_CHANCE = 15
-local WORM_CHANCE = 30
+local FISH_CHANCE = tonumber(minetest.settings:get("fishing.fish_chance") or 15)
+local WORM_CHANCE = tonumber(minetest.settings:get("fishing.worm_chance") or 30)
 
 minetest.register_craftitem("fishing:fish_raw", {
 	description = "Raw Fish",
